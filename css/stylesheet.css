@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+img video canvas {
+    height: 100%;
+    width: 100%;
+}
+
+header main footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    background-image: url("../images/Image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 807px;
+}
+
+.container {
+    width: 1088px;
+    margin: 0 auto;
+}
+
+header div.container{
+    height: 100%;
+}
+.menu {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 90px;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 486px;
+    position: relative;
+    z-index: 2;
+
+}
+
+a {
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+
+
+}
+.menu>a{
+    font-size: 35px;
+    position: relative;
+    z-index: 2;
+}
+
+span {
+    color: #FF0000;
+}
+
+
+.banner{
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+h1{
+    color: #FFFFFF;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    display: inline-block;
+    width: 643px;
+    height: 123px;
+}
+
+.banner p{
+    display: inline-block;
+    width: 917px;
+    height: 48px;
+    color: white;
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+
+
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+
+
+
+
+}
+
+.btn1, .btn2{
+    color: white;
+    box-shadow: 0px 3px 6px #FF00004D;
+    border-radius: 40px;
+    opacity: 1;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    width: 218px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.btn1{
+
+    background: #FF0000 0% 0% no-repeat padding-box;
+    color: white;
+    margin-right: 30px;
+
+}
+
+.btn2{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: #FF0000;
+}
